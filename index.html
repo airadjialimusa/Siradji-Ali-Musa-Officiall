@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080808">
+<title>Official Siradji Ali Musa — Creator Studio</title>
+<style>
+:root{--bg:#080808;--panel:#151515;--gold:#d4af37;--red:#e23b2e;--white:#fff;--muted:#b9b9b9}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--white);font:16px/1.5 Inter,system-ui,Arial,sans-serif}
+header{display:flex;align-items:center;justify-content:space-between;padding:14px 5%;border-bottom:1px solid #3a3020;position:sticky;top:0;background:#080808ee;backdrop-filter:blur(12px);z-index:2}
+.brand{display:flex;align-items:center;gap:12px}.brand img{width:48px;height:48px;object-fit:cover;border-radius:50%;border:2px solid var(--gold)}.brand strong{display:block;color:var(--gold);letter-spacing:.04em}.brand small{color:var(--muted)}
+select,button{background:#191919;color:white;border:1px solid #6b5521;border-radius:10px;padding:10px 13px}
+main{max-width:1160px;margin:auto;padding:36px 5% 70px}.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center;padding:35px 0}
+h1{font-size:clamp(2.2rem,6vw,4.6rem);line-height:1.02;margin:10px 0;color:var(--gold)}.eyebrow{color:var(--red);font-weight:800;letter-spacing:.16em}.lead{color:#ddd;max-width:620px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.primary{background:var(--gold);color:#090909;font-weight:800;border:0}.logo-card{background:radial-gradient(circle,#272018,#111 65%);padding:20px;border:1px solid #806722;border-radius:24px;text-align:center}.logo-card img{width:min(100%,330px);aspect-ratio:1;object-fit:cover;border-radius:50%;border:3px solid var(--gold)}
+.section-title{color:var(--gold);margin:34px 0 14px}.tools{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.tool{background:var(--panel);border:1px solid #393027;border-radius:16px;padding:18px;min-height:120px}.tool b{display:block;color:var(--gold);margin-bottom:6px}.tool p{color:var(--muted);font-size:.92rem;margin:0}.social{display:flex;gap:10px;flex-wrap:wrap}.social a{color:var(--gold);border:1px solid #51411e;padding:9px 12px;border-radius:10px;text-decoration:none}footer{border-top:1px solid #3a3020;padding:24px 5%;color:var(--muted);text-align:center}
+@media(max-width:720px){.hero{grid-template-columns:1fr}.tools{grid-template-columns:repeat(2,1fr)}header{gap:10px}.brand small{display:none}}
+@media(max-width:430px){.tools{grid-template-columns:1fr}.brand strong{font-size:.85rem}}
+</style></head>
+<body>
+<header><div class="brand"><img src="../assets/official-logo.jpg" alt="Official Siradji Ali Musa logo"><div><strong>OFFICIAL SIRADJI ALI MUSA</strong><small>International Creator Studio</small></div></div>
+<select id="language" aria-label="Choose language"><option value="en">English</option><option value="ff">Fulfulde</option><option value="fr">Français</option><option value="ar">العربية</option></select></header>
+<main>
+<section class="hero"><div><div class="eyebrow">CREATE • DESIGN • EDIT • INSPIRE</div><h1 id="headline">Your International AI Creator Studio</h1><p class="lead" id="intro">One free creative workspace for video, images, audio, writing and social media content.</p><div class="actions"><button class="primary" onclick="alert('Creator tools demo: connect the backend and AI providers to enable generation.')">Explore Creator Tools</button><button onclick="document.getElementById('social').scrollIntoView({behavior:'smooth'})">Official Profiles</button></div></div>
+<div class="logo-card"><img src="../assets/official-logo.jpg" alt="Official Siradji Ali Musa brand logo"><p style="color:var(--gold);font-weight:800;margin-bottom:0">@siradji_ali_musa_official</p></div></section>
+<h2 class="section-title" id="tools-title">Creator tools</h2>
+<section class="tools">
+<div class="tool"><b>AI Video Studio</b><p>Video concepts, captions, subtitles and editing workflows.</p></div>
+<div class="tool"><b>AI Image Studio</b><p>Image creation, posters, thumbnails and design workflows.</p></div>
+<div class="tool"><b>AI Music & Audio</b><p>Music concepts, voiceover and audio production tools.</p></div>
+<div class="tool"><b>AI Writing</b><p>Scripts, articles, descriptions and creative writing.</p></div>
+<div class="tool"><b>Social Media Creator</b><p>Prepare posts for Facebook, Instagram, TikTok, YouTube and X.</p></div>
+<div class="tool"><b>Language Assistant</b><p>Fulfulde, English, French and Arabic interface support.</p></div>
+</section>
+<h2 class="section-title" id="social">Official social media</h2>
+<nav class="social">
+<a href="https://www.facebook.com/siradji.ali.musa.official" target="_blank" rel="noopener">Facebook</a>
+<a href="https://x.com/siradjialimusa" target="_blank" rel="noopener">X</a>
+<a href="https://www.instagram.com/siradji_ali_musa_official" target="_blank" rel="noopener">Instagram</a>
+<a href="https://www.tiktok.com/@siraji_ali_musa_official" target="_blank" rel="noopener">TikTok</a>
+<a href="https://youtube.com/@siradji_ali_musa_officiall" target="_blank" rel="noopener">YouTube</a>
+<a href="https://t.me/siradji_ali_musa_official" target="_blank" rel="noopener">Telegram</a>
+</nav>
+<h2 class="section-title">Contact</h2><p>Phone / WhatsApp: +218928362192<br>Email: jaabandeon@gmail.com</p>
+</main><footer>© 2026 Official Siradji Ali Musa. All Rights Reserved. · Free access</footer>
+<script>
+const copy={
+en:{h:"Your International AI Creator Studio",i:"One free creative workspace for video, images, audio, writing and social media content.",t:"Creator tools"},
+ff:{h:"Janngirde maa AI e winndere",i:"Nokku gooto e dokkal video, natal, daande, binndol e social media.",t:"Dokkale creator"},
+fr:{h:"Votre studio international de création IA",i:"Un espace créatif gratuit pour la vidéo, les images, l’audio, l’écriture et les réseaux sociaux.",t:"Outils de création"},
+ar:{h:"استوديو الإبداع العالمي بالذكاء الاصطناعي",i:"مساحة إبداعية مجانية للفيديو والصور والصوت والكتابة ومحتوى التواصل الاجتماعي.",t:"أدوات الإبداع"}
+};
+document.getElementById('language').addEventListener('change',e=>{let x=copy[e.target.value];document.getElementById('headline').textContent=x.h;document.getElementById('intro').textContent=x.i;document.getElementById('tools-title').textContent=x.t;document.documentElement.dir=e.target.value==='ar'?'rtl':'ltr';});
+</script></body></html>
